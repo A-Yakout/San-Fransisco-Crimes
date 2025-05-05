@@ -34,26 +34,28 @@ This project focuses on analyzing and extracting patterns from San Francisco cri
    Set the goal: pattern discovery, not prediction.
 
 2. **Data Collection**  
-   Dataset: [San Francisco Crime Classification (Kaggle)](https://www.kaggle.com/c/sf-crime/data)
+   Dataset: [San Francisco Crime Classification (Kaggle)]
+   (https://www.kaggle.com/competitions/sf-crime/data)
+   (https://www.kaggle.com/c/sf-crime/data)
 
-3. **Data Cleaning & Preprocessing**
+4. **Data Cleaning & Preprocessing**
    - Removed unnecessary columns (e.g., `Descript`, `Resolution`, `Address`)
    - Encoded categorical features
    - Normalized features (StandardScaler)
 
-4. **Exploratory Data Analysis (EDA)**
+5. **Exploratory Data Analysis (EDA)**
    - Analyzed top crime categories and districts
    - Visualized distributions over time and geography
 
-5. **Data Mining Techniques**
+6. **Data Mining Techniques**
    - Applied **K-Medoids clustering** on location-based features (X, Y)
    - Explored patterns of high-crime zones
 
-6. **Visualization**
+7. **Visualization**
    - Histograms, scatter plots, and pie charts to present insights
    - Clusters plotted on coordinate maps
 
-7. **Documentation & Reporting**
+8. **Documentation & Reporting**
    - All analysis documented in the notebook
    - Conclusions and patterns highlighted
 
